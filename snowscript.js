@@ -10,7 +10,7 @@ var xStep = new Array();
 var cords = new Array();
 var amplitude = new Array();
 for (var i = 0; i <= snowMax; i++) {
-    document.write("<span id='s" + i + "' style='position:absolute;top:-" + snowMaxSize + "px;'>" + snowLetter + "</span>");
+    document.write("<span id='s" + i + "' style='user-select:none;position:absolute;top:-" + snowMaxSize + "px;'>" + snowLetter + "</span>");
 }
 window.onload = generateSnow;
 function generateSnow() {
